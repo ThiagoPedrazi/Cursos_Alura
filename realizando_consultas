@@ -1,0 +1,41 @@
+-- Praticando SQL: realizando consultas
+
+SELECT * 
+FROM TabelaClientes;
+
+SELECT NomeColaborador, Cargo
+FROM TabelaColaboradores;
+
+SELECT * 
+FROM TabelaEmprestimo
+WHERE Status = TRUE;
+
+SELECT Nome, Estado 
+FROM TabelaClientes
+WHERE Estado = 'SP';
+
+SELECT NomeColaborador, Salario 
+FROM TabelaColaboradores
+WHERE Salario > 5000;
+
+SELECT * 
+FROM TabelaEmprestimo
+WHERE Valor >= 10000;
+
+SELECT NomeColaborador, Cargo 
+FROM TabelaColaboradores
+ORDER BY NomeColaborador;
+
+SELECT * 
+FROM TabelaColaboradores
+LIMIT 5;
+
+SELECT * 
+FROM TabelaEmprestimo
+ORDER BY Valor DESC;
+
+SELECT * 
+FROM TabelaColaboradores
+WHERE Salario >= 5000
+ORDER BY id_colaborador DESC
+LIMIT 2;
