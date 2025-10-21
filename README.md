@@ -1,8 +1,8 @@
 # Cursos_Alura
 
-Formação Alura - Praticando SQL
+Cursos e Formações Alura
 
-# Ao todo são 9 cursos dentro dessa Formação - Praticando SQL:
+# 1ª Formação Alura: Praticando SQL -> Ao todo são 9 cursos dentro dessa Formação
 
 1) Praticando SQL: realizando consultas
 2) Praticando SQL: utilizando operadores lógicos
@@ -14,4 +14,4 @@ Formação Alura - Praticando SQL
 8) Praticando SQL: combinando dados com JOINs
 9) Praticando SQL: Common Table Expressions
 
-Os códigos SQL são do SQLite, SQL Server e PostgreSQL.
+As querys aplicadas foram escritas nos bancos: SQLite, SQL Server e PostgreSQL.
