@@ -13,3 +13,5 @@ Formação Alura - Praticando SQL
 7) Praticando SQL: entendendo subconsultas
 8) Praticando SQL: combinando dados com JOINs
 9) Praticando SQL: Common Table Expressions
+
+Alguns códigos SQL são do SQLite, SQL Server e PostgreSQL.
