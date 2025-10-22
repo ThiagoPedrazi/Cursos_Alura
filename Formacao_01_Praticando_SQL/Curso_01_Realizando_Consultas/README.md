@@ -58,9 +58,9 @@ FROM TabelaColaboradores
 WHERE Salario >= 5000
 ORDER BY id_colaborador DESC
 LIMIT 2;
+```
 
-
-📘 Resumo geral:
+📘 **Resumo geral:**
 Neste curso, eu estudei as principais cláusulas do SQL:
 1) SELECT / FROM → escolher tabelas e colunas.
 2) WHERE → filtrar registros com base em condições.
