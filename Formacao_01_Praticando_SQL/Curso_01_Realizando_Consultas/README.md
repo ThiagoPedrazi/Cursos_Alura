@@ -62,6 +62,9 @@ WHERE NOT (Pontuacao > 700);
 Neste curso, foram aplicadas diversas técnicas de filtragem com operadores lógicos (AND, OR, NOT), listas (IN), intervalos (BETWEEN) e busca por padrões (LIKE), além da remoção de duplicidades com DISTINCT.
 Esses são os blocos essenciais para construir consultas SQL eficientes e legíveis.
 
+👨‍💻 Autor: Thiago Pedrazi
+📅 Atualizado em: Outubro/2025
+
 
 
 
