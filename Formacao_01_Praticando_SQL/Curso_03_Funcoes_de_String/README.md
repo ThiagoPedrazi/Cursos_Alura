@@ -102,6 +102,7 @@ Eu tive a oportunidade de poder praticar sobre:
 3) Juntar informações (CONCAT, ||, +)
 4) Substituir e limpar valores (REPLACE, TRIM, LTRIM, RTRIM)
 5) Extrair partes de texto (SUBSTR, SUBSTRING)
+
 Essas funções são essenciais para padronizar, tratar e formatar textos dentro de consultas SQL.
 
 👨‍💻 Autor: Thiago Pedrazi
