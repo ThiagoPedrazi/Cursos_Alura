@@ -171,5 +171,5 @@ Neste curso, foram exploradas as principais funções de manipulação de datas 
 
 Essas funções são fundamentais para relatórios temporais, análises de desempenho e controles financeiros baseados em períodos.
 
-👨‍💻 Autor: Thiago Pedrazi
-📅 Atualizado em: Outubro/2025
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
