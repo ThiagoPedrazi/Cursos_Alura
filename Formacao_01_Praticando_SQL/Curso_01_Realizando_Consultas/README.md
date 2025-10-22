@@ -1,5 +1,6 @@
 ## 🧩 Códigos SQL – Curso 01: Realizando Consultas
 
+```sql
 SELECT NomeColaborador, Salario, id_departamento
 FROM TabelaColaboradores
 WHERE Salario > 4500 AND id_departamento = 'D03';
