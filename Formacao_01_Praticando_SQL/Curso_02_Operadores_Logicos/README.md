@@ -63,19 +63,5 @@ WHERE NOT (Pontuacao > 700);
 Neste curso, foram aplicadas diversas técnicas de filtragem usando operadores lógicos (AND, OR, NOT), listas (IN), intervalos (BETWEEN) e buscas por padrão (LIKE), além da eliminação de duplicidades com DISTINCT.
 Esses recursos formam a base para consultas SQL robustas e expressivas em bancos relacionais.
 
-👨‍💻 Autor: Thiago Pedrazi
-📅 Atualizado em: Outubro/2025
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
