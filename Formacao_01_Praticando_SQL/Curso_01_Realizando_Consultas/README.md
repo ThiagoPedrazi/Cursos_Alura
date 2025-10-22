@@ -69,16 +69,8 @@ Neste curso, eu estudei as principais cláusulas do SQL:
 
 Esses são os fundamentos essenciais de qualquer consulta SQL.
 
-👨‍💻 Autor: Thiago Pedrazi
-📅 Atualizado em: Outubro/2025
-
-
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
 
 
 
