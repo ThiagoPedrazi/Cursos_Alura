@@ -1,4 +1,4 @@
-# 🧠 Curso 03 – Praticando SQL: Entendendo Funções de String  
+# 🧠 Curso 03 – Formação Praticando SQL: Entendendo Funções de String  
 
 Neste módulo, eu tive a oportunidade de poder praticar sobre **manipular textos e cadeias de caracteres (strings)** em SQL, explorando funções como `UPPER`, `LOWER`, `LENGTH`, `TRIM`, `CONCAT`, `SUBSTR`, `REPLACE` e outras variações entre bancos diferentes (**SQLite**, **PostgreSQL** e **SQL Server**).  
 Cada exemplo mostra o código SQL e uma explicação prática de seu uso.
