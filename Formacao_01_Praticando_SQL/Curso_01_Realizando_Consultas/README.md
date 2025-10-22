@@ -1,11 +1,12 @@
 # 🧠 Curso 01 – Praticando SQL: Realizando Consultas  
 
 Este módulo apresenta consultas SQL fundamentais utilizando as cláusulas **SELECT**, **WHERE**, **AND**, **OR**, **IN**, **BETWEEN**, **LIKE**, **NOT** e **DISTINCT**.  
-Cada exemplo abaixo contém um trecho de código SQL e um breve resumo explicativo sobre sua função.
+Abaixo estão os códigos completos e, em seguida, um resumo explicativo de cada um.
 
 ---
 
-## 🟩 1. Selecionando funcionários com salário acima de R$4500 e do departamento D03
+## 🧩 Códigos SQL
+
 ```sql
 SELECT NomeColaborador, Salario, id_departamento
 FROM TabelaColaboradores
@@ -15,3 +16,33 @@ SELECT Nome, DataNascimento, Estado
 FROM TabelaClientes
 WHERE DataNascimento < '1990-01-01' OR Estado = 'SP';
 
+SELECT id_emprestimo, DataInicio, Tipo, Valor
+FROM TabelaEmprestimo
+WHERE DataInicio BETWEEN '2023-01-01' AND '2023-03-31';
+
+SELECT Nome, DataNascimento, CPF
+FROM TabelaClientes
+WHERE NOT (YEAR(CURDATE()) - YEAR(DataNascimento) < 18);
+
+SELECT id_emprestimo, Tipo, Valor
+FROM TabelaEmprestimo
+WHERE Tipo IN ('Pessoal', 'Imobiliário');
+
+SELECT id_emprestimo, Tipo, Valor
+FROM TabelaEmprestimo
+WHERE Valor BETWEEN 10000 AND 50000 AND Tipo IN ('Consignado', 'Automóvel');
+
+SELECT DISTINCT Estado
+FROM TabelaClientes;
+
+SELECT Nome, CPF, Cidade, Estado
+FROM TabelaClientes
+WHERE (Cidade = 'Rio de Janeiro' OR Cidade = 'Salvador') AND CPF LIKE '6%';
+
+SELECT id_pagamento, DataPagamento, Valor, Status
+FROM TabelaPagamentos
+WHERE DataPagamento BETWEEN '2023-01-01' AND '2023-12-31' AND Valor BETWEEN 500 AND 1000;
+
+SELECT id_cliente, Pontuacao, Fonte
+FROM TabelaScoreCredito
+WHERE NOT (Pontuacao > 700);
