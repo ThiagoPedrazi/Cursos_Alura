@@ -163,11 +163,11 @@ FROM TabelaEmprestimo;
 
 📘 **Resumo geral:**
 Neste curso, foram exploradas as principais funções de manipulação de datas nos bancos SQLite, PostgreSQL e SQL Server, abordando:
-1) Obtenção da data/hora atual (NOW, CURRENT_TIMESTAMP, GETDATE)
-2) Formatação e conversão de datas (STRFTIME, TO_CHAR, FORMAT)
-3) Cálculos de diferença e intervalos (DATEDIFF, JULIANDAY, INTERVAL)
-4) Extração de partes específicas (YEAR, EXTRACT)
-5) Lógica condicional para status e vencimento (CASE WHEN)
+1) Obtenção da data/hora atual (NOW, CURRENT_TIMESTAMP, GETDATE);
+2) Formatação e conversão de datas (STRFTIME, TO_CHAR, FORMAT);
+3) Cálculos de diferença e intervalos (DATEDIFF, JULIANDAY, INTERVAL);
+4) Extração de partes específicas (YEAR, EXTRACT);
+5) Lógica condicional para status e vencimento (CASE WHEN).
 
 Essas funções são fundamentais para relatórios temporais, análises de desempenho e controles financeiros baseados em períodos.
 
