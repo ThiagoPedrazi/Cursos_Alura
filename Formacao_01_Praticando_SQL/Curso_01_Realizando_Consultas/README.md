@@ -71,7 +71,3 @@ Esses são os fundamentos essenciais de qualquer consulta SQL.
 
 👨‍💻 *Autor:* **Thiago Pedrazi**  
 📅 *Atualizado em:* **Outubro/2025**
-
-
-
-
