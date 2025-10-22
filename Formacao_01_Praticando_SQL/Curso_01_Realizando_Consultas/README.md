@@ -62,10 +62,11 @@ LIMIT 2;
 
 📘 **Resumo geral:**
 Neste curso, eu estudei as principais cláusulas do SQL:
-1) SELECT / FROM → escolher tabelas e colunas.
-2) WHERE → filtrar registros com base em condições.
-3) ORDER BY → ordenar resultados.
+1) SELECT / FROM → escolher tabelas e colunas;
+2) WHERE → filtrar registros com base em condições;
+3) ORDER BY → ordenar resultados;
 4) LIMIT → restringir a quantidade de linhas retornadas.
+
 Esses são os fundamentos essenciais de qualquer consulta SQL.
 
 👨‍💻 Autor: Thiago Pedrazi
