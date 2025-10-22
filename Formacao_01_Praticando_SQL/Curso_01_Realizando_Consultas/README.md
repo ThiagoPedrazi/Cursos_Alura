@@ -1,4 +1,4 @@
-# 🧠 Curso 01 – Praticando SQL: Realizando Consultas  
+# 🧠 Curso 01 – Formação Praticando SQL: Realizando Consultas  
 
 Este módulo apresenta os conceitos fundamentais de **consultas SQL**, utilizando as cláusulas **SELECT**, **FROM**, **WHERE**, **ORDER BY** e **LIMIT**.  
 Esses comandos formam a base de qualquer análise de dados em bancos relacionais.  
