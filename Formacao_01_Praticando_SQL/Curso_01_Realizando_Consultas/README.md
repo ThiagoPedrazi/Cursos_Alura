@@ -8,6 +8,10 @@ Abaixo estão os códigos completos e, em seguida, um resumo explicativo de cada
 ## 🧩 Códigos SQL
 
 ```sql
+
+1️⃣ Funcionários com salário acima de R$4500 e do departamento D03
+→ Retorna os colaboradores cujo salário é maior que 4500 e pertencem ao departamento D03.
+Usa AND para exigir que ambas as condições sejam verdadeiras.
 SELECT NomeColaborador, Salario, id_departamento
 FROM TabelaColaboradores
 WHERE Salario > 4500 AND id_departamento = 'D03';
