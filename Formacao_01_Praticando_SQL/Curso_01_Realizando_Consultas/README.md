@@ -1,4 +1,4 @@
--- Codigos
+## 🧩 Códigos SQL – Curso 01: Realizando Consultas
 
 SELECT NomeColaborador, Salario, id_departamento
 FROM TabelaColaboradores
