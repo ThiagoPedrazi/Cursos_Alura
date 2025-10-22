@@ -1,4 +1,4 @@
-# Formação 1 – Praticando SQL
+# Formação 1: Alura – Praticando SQL
 Ao todo são 9 cursos dentro dessa formação:
 1) Praticando SQL: realizando consultas
 2) Praticando SQL: utilizando operadores lógicos
