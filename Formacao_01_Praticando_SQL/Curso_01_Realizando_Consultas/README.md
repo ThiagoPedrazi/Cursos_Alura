@@ -1,70 +1,75 @@
 # 🧠 Curso 01 – Praticando SQL: Realizando Consultas  
 
-Este módulo apresenta consultas SQL fundamentais utilizando as cláusulas **SELECT**, **WHERE**, **AND**, **OR**, **IN**, **BETWEEN**, **LIKE**, **NOT** e **DISTINCT**.  
-Cada exemplo abaixo mostra o código SQL e seu respectivo resumo explicativo.
+Este módulo apresenta os conceitos fundamentais de **consultas SQL**, utilizando as cláusulas **SELECT**, **FROM**, **WHERE**, **ORDER BY** e **LIMIT**.  
+Esses comandos formam a base de qualquer análise de dados em bancos relacionais.  
+Cada exemplo abaixo mostra o código SQL e uma breve explicação.
 
 ---
 
 ## 🧩 Consultas e Explicações
 
 ```sql
--- 1️⃣ Funcionários com salário acima de R$4500 e do departamento D03
-SELECT NomeColaborador, Salario, id_departamento
-FROM TabelaColaboradores
-WHERE Salario > 4500 AND id_departamento = 'D03';
-
--- 2️⃣ Clientes nascidos antes de 1990 ou residentes em SP
-SELECT Nome, DataNascimento, Estado
-FROM TabelaClientes
-WHERE DataNascimento < '1990-01-01' OR Estado = 'SP';
-
--- 3️⃣ Empréstimos realizados entre janeiro e março de 2023
-SELECT id_emprestimo, DataInicio, Tipo, Valor
-FROM TabelaEmprestimo
-WHERE DataInicio BETWEEN '2023-01-01' AND '2023-03-31';
-
--- 4️⃣ Clientes maiores de idade
-SELECT Nome, DataNascimento, CPF
-FROM TabelaClientes
-WHERE NOT (YEAR(CURDATE()) - YEAR(DataNascimento) < 18);
-
--- 5️⃣ Empréstimos do tipo Pessoal ou Imobiliário
-SELECT id_emprestimo, Tipo, Valor
-FROM TabelaEmprestimo
-WHERE Tipo IN ('Pessoal', 'Imobiliário');
-
--- 6️⃣ Empréstimos entre 10 mil e 50 mil dos tipos Consignado ou Automóvel
-SELECT id_emprestimo, Tipo, Valor
-FROM TabelaEmprestimo
-WHERE Valor BETWEEN 10000 AND 50000 AND Tipo IN ('Consignado', 'Automóvel');
-
--- 7️⃣ Listando estados únicos da tabela de clientes
-SELECT DISTINCT Estado
+-- 1️⃣ Exibindo todos os registros da tabela de clientes
+SELECT * 
 FROM TabelaClientes;
 
--- 8️⃣ Clientes de RJ ou Salvador com CPF iniciando em 6
-SELECT Nome, CPF, Cidade, Estado
+-- 2️⃣ Exibindo apenas o nome e o cargo dos colaboradores
+SELECT NomeColaborador, Cargo
+FROM TabelaColaboradores;
+
+-- 3️⃣ Exibindo apenas empréstimos ativos (status verdadeiro)
+SELECT * 
+FROM TabelaEmprestimo
+WHERE Status = TRUE;
+
+-- 4️⃣ Exibindo clientes que moram no estado de São Paulo
+SELECT Nome, Estado 
 FROM TabelaClientes
-WHERE (Cidade = 'Rio de Janeiro' OR Cidade = 'Salvador') AND CPF LIKE '6%';
+WHERE Estado = 'SP';
 
--- 9️⃣ Pagamentos entre R$500 e R$1000 realizados em 2023
-SELECT id_pagamento, DataPagamento, Valor, Status
-FROM TabelaPagamentos
-WHERE DataPagamento BETWEEN '2023-01-01' AND '2023-12-31'
-  AND Valor BETWEEN 500 AND 1000;
+-- 5️⃣ Exibindo colaboradores com salário acima de R$5000
+SELECT NomeColaborador, Salario 
+FROM TabelaColaboradores
+WHERE Salario > 5000;
 
--- 🔟 Clientes com pontuação menor ou igual a 700
-SELECT id_cliente, Pontuacao, Fonte
-FROM TabelaScoreCredito
-WHERE NOT (Pontuacao > 700);
+-- 6️⃣ Exibindo empréstimos com valor igual ou superior a 10.000
+SELECT * 
+FROM TabelaEmprestimo
+WHERE Valor >= 10000;
+
+-- 7️⃣ Ordenando colaboradores em ordem alfabética
+SELECT NomeColaborador, Cargo 
+FROM TabelaColaboradores
+ORDER BY NomeColaborador;
+
+-- 8️⃣ Exibindo apenas os 5 primeiros registros de colaboradores
+SELECT * 
+FROM TabelaColaboradores
+LIMIT 5;
+
+-- 9️⃣ Listando empréstimos do maior para o menor valor
+SELECT * 
+FROM TabelaEmprestimo
+ORDER BY Valor DESC;
+
+-- 🔟 Exibindo os 2 colaboradores com maiores salários
+SELECT * 
+FROM TabelaColaboradores
+WHERE Salario >= 5000
+ORDER BY id_colaborador DESC
+LIMIT 2;
+
 
 📘 Resumo geral:
-Neste curso, foram aplicadas diversas técnicas de filtragem com operadores lógicos (AND, OR, NOT), listas (IN), intervalos (BETWEEN) e busca por padrões (LIKE), além da remoção de duplicidades com DISTINCT.
-Esses são os blocos essenciais para construir consultas SQL eficientes e legíveis.
+Neste curso, eu estudei as principais cláusulas do SQL:
+1) SELECT / FROM → escolher tabelas e colunas.
+2) WHERE → filtrar registros com base em condições.
+3) ORDER BY → ordenar resultados.
+4) LIMIT → restringir a quantidade de linhas retornadas.
+Esses são os fundamentos essenciais de qualquer consulta SQL.
 
 👨‍💻 Autor: Thiago Pedrazi
 📅 Atualizado em: Outubro/2025
-
 
 
 
