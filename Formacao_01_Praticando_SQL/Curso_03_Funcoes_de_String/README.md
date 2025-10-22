@@ -91,6 +91,7 @@ SELECT
 id_emprestimo,
 LTRIM(RTRIM(Tipo)) AS Tipo
 FROM TabelaEmprestimo;
+```sql
 
 
 📘 Resumo geral:
