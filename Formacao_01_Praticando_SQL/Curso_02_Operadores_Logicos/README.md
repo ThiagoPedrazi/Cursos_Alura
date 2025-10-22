@@ -1,4 +1,4 @@
-# 🧠 Curso 02 – Praticando SQL: Operadores Lógicos  
+# 🧠 Curso 02 – Formação Praticando SQL: Operadores Lógicos  
 
 Este módulo aprofunda o uso dos **operadores lógicos e de filtragem** nas consultas SQL, como **AND**, **OR**, **NOT**, **IN**, **BETWEEN**, **LIKE** e **DISTINCT**, fundamentais para criar consultas mais precisas e eficientes.  
 Cada exemplo abaixo apresenta o código SQL e um resumo explicativo.
