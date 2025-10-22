@@ -105,35 +105,5 @@ Eu tive a oportunidade de poder praticar sobre:
 
 Essas funções são essenciais para padronizar, tratar e formatar textos dentro de consultas SQL.
 
-👨‍💻 Autor: Thiago Pedrazi
-📅 Atualizado em: Outubro/2025
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
