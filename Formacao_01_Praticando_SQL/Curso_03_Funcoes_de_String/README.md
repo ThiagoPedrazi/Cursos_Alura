@@ -97,11 +97,11 @@ FROM TabelaEmprestimo;
 📘 **Resumo geral**:
 Neste curso, foram exploradas as principais funções de manipulação de strings nos bancos SQLite, PostgreSQL e SQL Server.
 Eu tive a oportunidade de poder praticar sobre:
-1) Transformar textos (UPPER, LOWER)
-2) Medir comprimentos (LENGTH, LEN)
-3) Juntar informações (CONCAT, ||, +)
-4) Substituir e limpar valores (REPLACE, TRIM, LTRIM, RTRIM)
-5) Extrair partes de texto (SUBSTR, SUBSTRING)
+1) Transformar textos (UPPER, LOWER);
+2) Medir comprimentos (LENGTH, LEN);
+3) Juntar informações (CONCAT, ||, +);
+4) Substituir e limpar valores (REPLACE, TRIM, LTRIM, RTRIM);
+5) Extrair partes de texto (SUBSTR, SUBSTRING).
 
 Essas funções são essenciais para padronizar, tratar e formatar textos dentro de consultas SQL.
 
