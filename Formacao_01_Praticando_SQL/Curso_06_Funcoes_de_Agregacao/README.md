@@ -58,14 +58,14 @@ FROM TabelaEmprestimo;
 ```
 
 📘 **Resumo geral:**
-Neste curso, foram aplicadas as principais funções de agregação do SQL:
-1) SUM() -> Soma os valores de uma coluna numérica;
-2) AVG() -> Calcula a média aritmética;
-3) MIN() -> Retorna o menor valor;
-4) MAX() ->	Retorna o maior valor;
-5) COUNT() ->	Conta o número de registros;
-6) GROUP BY -> Agrupa dados por uma ou mais colunas;
-7) HAVING -> Filtra resultados após o agrupamento.
+Neste curso, foram aplicadas as principais funções de agregação do SQL
+- SUM() -> Soma os valores de uma coluna numérica
+- AVG() -> Calcula a média aritmética
+- MIN() -> Retorna o menor valor
+- MAX() ->	Retorna o maior valor
+- COUNT() -> Conta o número de registros
+- GROUP BY -> Agrupa dados por uma ou mais colunas
+- HAVING -> Filtra resultados após o agrupamento
 
 Essas funções são amplamente usadas em dashboards, relatórios financeiros e análises de indicadores.
 
