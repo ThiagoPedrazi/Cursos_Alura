@@ -15,7 +15,7 @@ Ao todo são **9 cursos** dentro dessa formação:
 ---
 
 🧭 **Resumo da Formação:**  
-Nesta formação, cada curso apresenta consultas SQL progressivamente mais avançadas, cobrindo desde comandos básicos até técnicas de análise e manipulação de dados.
+Nesta trilha, cada curso apresenta consultas SQL progressivamente mais avançadas, cobrindo desde comandos básicos até técnicas de análise e manipulação de dados.
 
 🧰 **Principais tópicos aprendidos:**
 - Filtragem e seleção de dados com `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
