@@ -1,6 +1,6 @@
 # 🧠 Curso 06 – Praticando SQL: Funções de Agregação  
 
-Neste módulo, você aprende a **resumir e consolidar informações numéricas** em consultas SQL usando funções como `SUM`, `AVG`, `MIN`, `MAX` e `COUNT`.  
+Neste módulo, eu tive a oportunidade de poder praticar sobre **resumir e consolidar informações numéricas** em consultas SQL usando funções como `SUM`, `AVG`, `MIN`, `MAX` e `COUNT`.  
 Essas funções são fundamentais para gerar relatórios e análises de desempenho.
 
 ---
@@ -69,21 +69,5 @@ Neste curso, foram aplicadas as principais funções de agregação do SQL:
 
 Essas funções são amplamente usadas em dashboards, relatórios financeiros e análises de indicadores.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
