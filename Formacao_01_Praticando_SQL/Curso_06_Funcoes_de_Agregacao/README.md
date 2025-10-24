@@ -57,8 +57,8 @@ SELECT
 FROM TabelaEmprestimo;
 ```
 
-📘 **Resumo geral:**
-Neste curso, foram aplicadas as principais funções de agregação do SQL
+📘 **Resumo geral** 
+Neste curso, foram aplicadas as principais funções de agregação do SQL:
 - SUM() -> Soma os valores de uma coluna numérica
 - AVG() -> Calcula a média aritmética
 - MIN() -> Retorna o menor valor
