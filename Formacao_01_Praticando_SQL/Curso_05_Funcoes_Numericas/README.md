@@ -94,5 +94,5 @@ Neste curso, foram exploradas as principais funções numéricas do SQL, aplicá
 
 Essas funções são amplamente utilizadas em relatórios de vendas, projeções e métricas de desempenho.
 
-👨‍💻 *Autor:* **Thiago Pedrazi**
+👨‍💻 *Autor:* **Thiago Pedrazi**  
 📅 *Atualizado em:* **Outubro/2025**
