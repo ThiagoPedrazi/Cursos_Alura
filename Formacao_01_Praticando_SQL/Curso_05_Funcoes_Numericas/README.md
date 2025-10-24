@@ -81,6 +81,8 @@ SELECT id_pedido,
            ELSE CEIL(QuantidadeVendida / 8.0) * 50
        END AS Frete
 FROM TabelaPedidos;
+```
+
 
 📘 **Resumo geral:**
 Neste curso, foram exploradas as principais funções numéricas do SQL, aplicáveis em análises financeiras, operacionais e logísticas:
@@ -88,7 +90,7 @@ Neste curso, foram exploradas as principais funções numéricas do SQL, aplicá
 2) Arredondamentos (ROUND, CEIL, FLOOR);
 3) Cálculos absolutos (ABS);
 4) Potências e raízes (POWER, SQRT);
-5) Simulações financeiras e de distância com CASE WHEN;
+5) Simulações financeiras e de distância com CASE WHEN.
 
 Essas funções são amplamente utilizadas em relatórios de vendas, projeções e métricas de desempenho.
 
