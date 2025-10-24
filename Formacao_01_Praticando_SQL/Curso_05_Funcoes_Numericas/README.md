@@ -82,40 +82,15 @@ SELECT id_pedido,
        END AS Frete
 FROM TabelaPedidos;
 
-📘 Resumo geral:
-Neste curso, você aprendeu as principais funções numéricas do SQL, aplicáveis em análises financeiras, operacionais e logísticas:
-
-Operações aritméticas básicas (+, -, *, /)
-
-Arredondamentos (ROUND, CEIL, FLOOR)
-
-Cálculos absolutos (ABS)
-
-Potências e raízes (POWER, SQRT)
-
-Simulações financeiras e de distância com CASE WHEN
+📘 **Resumo geral:**
+Neste curso, foram exploradas as principais funções numéricas do SQL, aplicáveis em análises financeiras, operacionais e logísticas:
+1) Operações aritméticas básicas (+, -, *, /);
+2) Arredondamentos (ROUND, CEIL, FLOOR);
+3) Cálculos absolutos (ABS);
+4) Potências e raízes (POWER, SQRT);
+5) Simulações financeiras e de distância com CASE WHEN;
 
 Essas funções são amplamente utilizadas em relatórios de vendas, projeções e métricas de desempenho.
 
-👨‍💻 Autor: Thiago Pedrazi
-📅 Atualizado em: Outubro/2025
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**
+📅 *Atualizado em:* **Outubro/2025**
