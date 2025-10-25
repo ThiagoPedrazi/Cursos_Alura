@@ -6,9 +6,7 @@ Elas podem ser usadas em cláusulas SELECT, WHERE, FROM e HAVING, tornando as co
 ---
 
 ## 🧩 Consultas e Explicações
-
 ```sql
-
 -- 1️⃣ Média salarial por departamento
 SELECT 
     NomeDepartamento,
@@ -33,7 +31,6 @@ FROM TabelaClientes
 JOIN TabelaEmprestimo ON TabelaClientes.id_cliente = TabelaEmprestimo.id_cliente
 WHERE Status = 1
 GROUP BY Cidade;
-💡 *Observação:* esta consulta não utiliza subconsulta, mas mostra como filtros agregados podem ser combinados com subqueries em cenários reais.
 
 -- 4️⃣ Clientes com todos os empréstimos pagos
 SELECT 
