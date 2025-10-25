@@ -3,7 +3,11 @@
 Neste módulo foram exploradas as subconsultas (ou subqueries), permitindo que uma consulta SQL dependa do resultado de outra, seja em cláusulas SELECT, WHERE, FROM ou HAVING.
 Essas estruturas tornam possível realizar comparações, cálculos e verificações complexas dentro de uma única query.
 
+---
 
+## 🧩 Consultas e Explicações
+
+```sql
 
 -- 1️⃣ Média salarial por departamento
 SELECT 
@@ -106,6 +110,22 @@ SELECT
      )) AS ValorTotalEmprestimos
 FROM TabelaClientes c
 GROUP BY c.Cidade;
+```
+
+📘 Resumo geral
+
+Neste curso foram exploradas as subconsultas (subqueries) em vários contextos:
+
+🔹 Subconsultas no SELECT para cálculos dinâmicos (média, máximo, soma).
+
+🔹 Subconsultas no WHERE para comparações condicionais.
+
+🔹 Uso de EXISTS e NOT EXISTS para verificar a existência (ou ausência) de registros relacionados.
+
+🔹 Subconsultas aninhadas, que permitem cálculos complexos e cruzamentos entre múltiplas tabelas.
+
+Essas técnicas são fundamentais para construir consultas SQL avançadas e flexíveis,
+capazes de responder perguntas de negócio com precisão e elegância.
 
 
 
