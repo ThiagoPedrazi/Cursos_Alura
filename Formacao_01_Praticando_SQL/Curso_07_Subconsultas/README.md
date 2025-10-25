@@ -1,7 +1,7 @@
 # 🧠 Curso 07 – Praticando SQL: Entendendo Subconsultas  
 
-Neste módulo foram exploradas as subconsultas (ou subqueries), permitindo que uma consulta SQL dependa do resultado de outra, seja em cláusulas SELECT, WHERE, FROM ou HAVING.
-Essas estruturas tornam possível realizar comparações, cálculos e verificações complexas dentro de uma única query.
+Neste módulo foram exploradas as subconsultas (subqueries) — consultas dentro de outras consultas — que permitem buscar, comparar e calcular informações derivadas de múltiplas tabelas.
+Elas podem ser usadas em cláusulas SELECT, WHERE, FROM e HAVING, tornando as consultas SQL mais dinâmicas e inteligentes.
 
 ---
 
@@ -33,6 +33,7 @@ FROM TabelaClientes
 JOIN TabelaEmprestimo ON TabelaClientes.id_cliente = TabelaEmprestimo.id_cliente
 WHERE Status = 1
 GROUP BY Cidade;
+💡 *Observação:* esta consulta não utiliza subconsulta, mas mostra como filtros agregados podem ser combinados com subqueries em cenários reais.
 
 -- 4️⃣ Clientes com todos os empréstimos pagos
 SELECT 
@@ -101,13 +102,15 @@ JOIN TabelaClienteConta ON TabelaClientes.id_cliente = TabelaClienteConta.id_cli
 -- 🔟 Soma total de empréstimos por cidade usando subconsultas aninhadas
 SELECT 
     c.Cidade,
-    (SELECT SUM(e.Valor) 
-     FROM TabelaEmprestimo e 
-     WHERE e.id_cliente IN (
-         SELECT cl.id_cliente 
-         FROM TabelaClientes cl 
-         WHERE cl.Cidade = c.Cidade
-     )) AS ValorTotalEmprestimos
+    (
+        SELECT SUM(e.Valor) 
+        FROM TabelaEmprestimo e 
+        WHERE e.id_cliente IN (
+            SELECT cl.id_cliente 
+            FROM TabelaClientes cl 
+            WHERE cl.Cidade = c.Cidade
+        )
+    ) AS ValorTotalEmprestimos
 FROM TabelaClientes c
 GROUP BY c.Cidade;
 ```
