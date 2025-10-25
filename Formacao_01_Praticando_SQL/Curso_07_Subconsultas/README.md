@@ -112,23 +112,14 @@ FROM TabelaClientes c
 GROUP BY c.Cidade;
 ```
 
-📘 Resumo geral
-
+📘 **Resumo geral**:
 Neste curso foram exploradas as subconsultas (subqueries) em vários contextos:
+- Subconsultas no SELECT para cálculos dinâmicos (média, máximo, soma).
+- Subconsultas no WHERE para comparações condicionais.
+- Uso de EXISTS e NOT EXISTS para verificar a existência (ou ausência) de registros relacionados.
+- Subconsultas aninhadas, que permitem cálculos complexos e cruzamentos entre múltiplas tabelas.
 
-🔹 Subconsultas no SELECT para cálculos dinâmicos (média, máximo, soma).
+Essas técnicas são fundamentais para construir consultas SQL avançadas e flexíveis, capazes de responder perguntas de negócio com mais precisão e organização.
 
-🔹 Subconsultas no WHERE para comparações condicionais.
-
-🔹 Uso de EXISTS e NOT EXISTS para verificar a existência (ou ausência) de registros relacionados.
-
-🔹 Subconsultas aninhadas, que permitem cálculos complexos e cruzamentos entre múltiplas tabelas.
-
-Essas técnicas são fundamentais para construir consultas SQL avançadas e flexíveis,
-capazes de responder perguntas de negócio com precisão e elegância.
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
