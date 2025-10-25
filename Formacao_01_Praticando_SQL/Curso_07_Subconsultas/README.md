@@ -1,3 +1,10 @@
+# 🧠 Curso 07 – Praticando SQL: Entendendo Subconsultas  
+
+Neste módulo foram exploradas as subconsultas (ou subqueries), permitindo que uma consulta SQL dependa do resultado de outra, seja em cláusulas SELECT, WHERE, FROM ou HAVING.
+Essas estruturas tornam possível realizar comparações, cálculos e verificações complexas dentro de uma única query.
+
+
+
 -- 1️⃣ Média salarial por departamento
 SELECT 
     NomeDepartamento,
