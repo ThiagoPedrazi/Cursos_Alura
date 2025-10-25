@@ -1,4 +1,4 @@
-# 🔗 Curso 08 – Praticando SQL: Combinando Dados com JOINs
+# 🧠 Curso 08 – Praticando SQL: Combinando Dados com JOINs
 
 Neste módulo, você aprende a **relacionar tabelas** para formar resultados mais ricos, usando `INNER JOIN`, `LEFT/RIGHT JOIN` e `FULL JOIN`, além de funções úteis como `COALESCE` e expressões `CASE`.  
 Cada exemplo traz o **SQL e a explicação** do que é retornado.
