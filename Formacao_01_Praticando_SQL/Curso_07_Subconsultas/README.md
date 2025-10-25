@@ -32,6 +32,10 @@ JOIN TabelaEmprestimo ON TabelaClientes.id_cliente = TabelaEmprestimo.id_cliente
 WHERE Status = 1
 GROUP BY Cidade;
 
+-- 💡 Observação:
+-- A consulta acima não utiliza subconsulta, mas mostra como filtros agregados 
+-- podem ser combinados com subqueries em cenários reais.
+
 -- 4️⃣ Clientes com todos os empréstimos pagos
 SELECT 
     Nome, 
