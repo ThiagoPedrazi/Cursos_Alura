@@ -130,38 +130,19 @@ SaldoMedio AS (
 )
 SELECT COUNT(*) AS TotalContas, (SELECT MediaSaldo FROM SaldoMedio) AS MediaSaldo
 FROM ContasAbertasRecentes;
+```
 
-📘 Resumo geral
+📘 **Resumo geral**
 
 As CTEs (WITH ... AS) são ideais para:
-
-Organizar consultas complexas sem criar tabelas temporárias permanentes.
-
-Reutilizar blocos dentro da mesma query.
-
-Melhorar legibilidade e manutenção de código SQL.
+- Organizar consultas complexas sem criar tabelas temporárias permanentes.
+- Reutilizar blocos dentro da mesma query.
+- Melhorar legibilidade e manutenção de código SQL.
 
 Tipos comuns:
+- CTE simples (única)
+- CTEs encadeadas (múltiplas)
+- CTEs recursivas (para hierarquias — vistas em módulos avançados)
 
-CTE simples (única)
-
-CTEs encadeadas (múltiplas)
-
-CTEs recursivas (para hierarquias — vistas em módulos avançados)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
