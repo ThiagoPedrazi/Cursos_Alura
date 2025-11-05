@@ -116,7 +116,8 @@ FROM TabelaClientes c
 GROUP BY c.Cidade;
 ```
 
-📘 **Resumo geral**:
+📘 **Resumo geral**
+
 Neste curso foram exploradas as subconsultas (subqueries) em vários contextos:
 - Subconsultas no SELECT para cálculos dinâmicos (média, máximo, soma).
 - Subconsultas no WHERE para comparações condicionais.
