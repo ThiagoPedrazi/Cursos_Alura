@@ -60,12 +60,13 @@ ORDER BY id_colaborador DESC
 LIMIT 2;
 ```
 
-📘 **Resumo geral:**
+📘 **Resumo geral**
+
 Neste curso, eu estudei as principais cláusulas do SQL:
-- SELECT / FROM → escolher tabelas e colunas
-- WHERE → filtrar registros com base em condições
-- ORDER BY → ordenar resultados
-- LIMIT → restringir a quantidade de linhas retornadas
+- SELECT / FROM → escolher tabelas e colunas.
+- WHERE → filtrar registros com base em condições.
+- ORDER BY → ordenar resultados.
+- LIMIT → restringir a quantidade de linhas retornadas.
 
 Esses são os fundamentos essenciais de qualquer consulta SQL.
 
