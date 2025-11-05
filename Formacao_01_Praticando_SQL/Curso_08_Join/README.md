@@ -1,6 +1,6 @@
 # 🧠 Curso 08 – Praticando SQL: Combinando Dados com JOINs
 
-Neste módulo, eu tive a oportunidade de poder aprender a **relacionar tabelas** para formar resultados mais ricos, usando `INNER JOIN`, `LEFT/RIGHT JOIN` e `FULL JOIN`, além de funções úteis como `COALESCE` e expressões `CASE`.  
+Neste módulo, eu tive a oportunidade de poder aprender sobre **relacionar tabelas** para formar resultados mais ricos e consistentes, usando `INNER JOIN`, `LEFT/RIGHT JOIN` e `FULL JOIN`, além de funções úteis como `COALESCE` e expressões `CASE`.  
 Cada exemplo traz o **SQL e a explicação** do que é retornado.
 
 ---
@@ -86,24 +86,14 @@ FULL JOIN TabelaDepartamento d
 ```
 
 📘 **Resumo geral:**
-
-INNER JOIN: só interseção (linhas com correspondência em ambas as tabelas).
-
-LEFT JOIN / RIGHT JOIN: mantém todos de um lado, preenchendo o outro com NULL quando não há match.
-
-FULL JOIN: retorna tudo de ambos os lados (com e sem match).
-
-JOIN + GROUP BY/HAVING: resumos por grupo com filtros agregados.
-
-JOIN + Subconsulta: comparações poderosas (ex.: acima da média).
-
-Funções de apoio: COALESCE (trata NULL) e CASE (rotula condições).
+- INNER JOIN: só interseção (linhas com correspondência em ambas as tabelas).
+- LEFT JOIN / RIGHT JOIN: mantém todos de um lado, preenchendo o outro com NULL quando não há match.
+- FULL JOIN: retorna tudo de ambos os lados (com e sem match).
+- JOIN + GROUP BY/HAVING: resumos por grupo com filtros agregados.
+- JOIN + Subconsulta: comparações poderosas (ex.: acima da média).
+- Funções de apoio: COALESCE (trata NULL) e CASE (rotula condições).
 
 Essas técnicas permitem criar relatórios ricos e consistentes, cobrindo do relacionamento básico à composição analítica com agregações e subconsultas.
 
-
-
-
-
-
-
+👨‍💻 *Autor:* **Thiago Pedrazi**  
+📅 *Atualizado em:* **Outubro/2025**
