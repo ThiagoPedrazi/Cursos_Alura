@@ -94,7 +94,8 @@ FROM TabelaEmprestimo;
 ```
 
 
-📘 **Resumo geral**:
+📘 **Resumo geral**
+
 Neste curso, foram exploradas as principais funções de manipulação de strings nos bancos SQLite, PostgreSQL e SQL Server.
 Eu tive a oportunidade de poder praticar sobre:
 - Transformar textos (UPPER, LOWER)
