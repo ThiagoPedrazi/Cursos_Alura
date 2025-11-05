@@ -1,4 +1,4 @@
-# 🧠 Curso 07 – Praticando SQL: Entendendo Subconsultas  
+# 🧠 Curso 07 – Formação Praticando SQL: Entendendo Subconsultas  
 
 Neste módulo foram exploradas as subconsultas (subqueries) — consultas dentro de outras consultas — que permitem buscar, comparar e calcular informações derivadas de múltiplas tabelas.
 Elas podem ser usadas em cláusulas SELECT, WHERE, FROM e HAVING, tornando as consultas SQL mais dinâmicas e inteligentes.
