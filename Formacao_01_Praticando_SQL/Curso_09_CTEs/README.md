@@ -1,4 +1,4 @@
-# 🧠 Curso 09 – Praticando SQL: Common Table Expressions (CTEs)
+# 🧠 Curso 09 – Formação Praticando SQL: Common Table Expressions (CTEs)
 
 Neste módulo, estudei sobre como utilizar **CTEs (Common Table Expressions)**, que permitem criar blocos de consulta temporários e nomeados para melhorar a **clareza, modularidade e reuso** do código SQL.  
 A cláusula `WITH` ajuda a dividir consultas complexas em partes mais legíveis e organizadas.
