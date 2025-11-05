@@ -2,6 +2,8 @@
 
 Ao todo são **9 cursos** dentro dessa formação:
 
+## 📚 Estrutura da Formação
+
 1. 🧾 [Praticando SQL: realizando consultas](Curso_01_Realizando_Consultas)  
 2. ⚙️ [Praticando SQL: utilizando operadores lógicos](Curso_02_Operadores_Logicos)  
 3. 🔠 [Praticando SQL: entendendo funções de string](Curso_03_Funcoes_de_String)  
@@ -15,7 +17,7 @@ Ao todo são **9 cursos** dentro dessa formação:
 ---
 
 🧭 **Resumo da Formação:**  
-Nesta trilha, cada curso apresenta consultas SQL progressivamente mais avançadas, cobrindo desde comandos básicos até técnicas de análise e manipulação de dados.
+👉 Nesta trilha, cada curso apresenta consultas SQL progressivamente mais avançadas, cobrindo desde comandos básicos até técnicas de análise e manipulação de dados.
 
 🧰 **Principais tópicos aprendidos:**
 - Filtragem e seleção de dados com `SELECT`, `WHERE`, `ORDER BY`, `LIMIT`
