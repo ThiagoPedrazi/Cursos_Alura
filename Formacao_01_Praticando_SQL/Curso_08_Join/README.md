@@ -1,12 +1,7 @@
 # 🧠 Curso 08 – Praticando SQL: Combinando Dados com JOINs
 
-Neste módulo, você aprende a **relacionar tabelas** para formar resultados mais ricos, usando `INNER JOIN`, `LEFT/RIGHT JOIN` e `FULL JOIN`, além de funções úteis como `COALESCE` e expressões `CASE`.  
+Neste módulo, eu tive a oportunidade de poder aprender a **relacionar tabelas** para formar resultados mais ricos, usando `INNER JOIN`, `LEFT/RIGHT JOIN` e `FULL JOIN`, além de funções úteis como `COALESCE` e expressões `CASE`.  
 Cada exemplo traz o **SQL e a explicação** do que é retornado.
-
-> ⚠️ **Compatibilidade rápida**  
-> - **SQLite**: não suporta `RIGHT` nem `FULL` nativamente (use `LEFT` + UNION/CTE como alternativa).  
-> - **MySQL**: sem `FULL JOIN` nativo (use `LEFT`/`RIGHT` + `UNION`).  
-> - **PostgreSQL / SQL Server**: suportam `INNER/LEFT/RIGHT/FULL`.
 
 ---
 
