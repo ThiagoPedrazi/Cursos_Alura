@@ -161,7 +161,8 @@ FROM TabelaEmprestimo;
 ```
 
 
-📘 **Resumo geral:**
+📘 **Resumo geral**
+
 Neste curso, foram exploradas as principais funções de manipulação de datas nos bancos SQLite, PostgreSQL e SQL Server, abordando:
 - Obtenção da data/hora atual (NOW, CURRENT_TIMESTAMP, GETDATE)
 - Formatação e conversão de datas (STRFTIME, TO_CHAR, FORMAT)
