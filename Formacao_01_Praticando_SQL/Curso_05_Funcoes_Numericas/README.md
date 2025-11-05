@@ -1,4 +1,4 @@
-# 🧠 Curso 05 – Praticando SQL: Funções Numéricas  
+# 🧠 Curso 05 – Formação Praticando SQL: Funções Numéricas  
 
 Neste módulo, eu tive a oportunidade de poder praticar sobre **operações matemáticas e cálculos numéricos em SQL**, aplicando funções como `ROUND`, `CEIL`, `FLOOR`, `ABS`, `POWER` e `SQRT`.  
 Essas funções são fundamentais para análises financeiras, cálculos de lucros, arredondamentos e projeções de crescimento.
